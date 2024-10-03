@@ -34,19 +34,8 @@
 - 혼합 정밀도(`fp16`): 사용
 - 학습 시 드롭아웃 비율: 0.05
 
-자세한 코드는 이 리포지토리의 `train.py`에서 확인할 수 있습니다.
-
-### 2. 추론(Inference)
-학습된 모델을 사용하여 한국어 뉴스 기사에서 질문에 대한 답변을 생성할 수 있습니다. 추론을 위한 코드는 `inference.py`에 포함되어 있으며, 사용자 입력에 따라 뉴스 기사 내용을 분석하고 적절한 답변을 제공합니다.
-
-## 파일 구조
-- `train.py`: 모델을 학습시키는 코드
-- `inference.py`: 학습된 모델을 사용해 질문에 답변을 생성하는 코드
-- `data/`: 모델 학습에 사용된 데이터셋 폴더
-- `results/`: 학습된 모델 가중치 및 결과 저장 폴더
 
 ## 참고 자료
-- 🤗 Hugging Face Hub 모델: [KoreanNewsQAModel-LoRA](https://huggingface.co/sonhy02/NewsBasedQuestionAnsweringModel)
 - [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)
 - [Hugging Face Transformers Documentation](https://huggingface.co/transformers/)
 
