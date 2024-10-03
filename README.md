@@ -3,6 +3,7 @@
 이 프로젝트는 뉴스 기반 질문 답변 시스템을 구축하기 위해 한국어 자연어 처리를 활용한 모델을 개발한 것입니다. `LoRA`(Low-Rank Adaptation) 기법을 사용하여 대규모 언어 모델인 `Gemma`를 메모리 효율적으로 미세 조정하였습니다. 이 모델은 `🤗 Hugging Face` 허브에 업로드되어 있으며, 뉴스 데이터로 학습된 모델을 활용해 한국어 질문 답변 시스템을 제공합니다.
 
 모델 링크: [KoreanNewsQAModel-LoRA on Hugging Face](https://huggingface.co/sonhy02/NewsBasedQuestionAnsweringModel)
+학습 데이터 링크: [뉴스 데이터](https://drive.google.com/drive/u/0/folders/1zaAQIzOwlK-v81sKdm1yPQ4OkT-3MgBP)
 
 ## 모델 설명
 
