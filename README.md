@@ -1,6 +1,5 @@
 # KoreanNewsQAModel-LoRA
 
-# KoreanNewsQAModel-LoRA
 
 KoreanNewsQAModel-LoRA는 뉴스 기반의 한국어 질문 답변 시스템을 구축하기 위해 LoRA(Low-Rank Adaptation) 기법을 사용하여 미세 조정된 대규모 언어 모델(Causal Language Model)입니다. 이 모델은 Gemma 모델을 베이스로 하며, 메모리 효율성을 높여 훈련 시간을 단축하고 성능을 향상시킵니다.
 
